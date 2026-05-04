@@ -1,0 +1,10 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>CSS and Responsive Design</title><link rel="stylesheet" href="style.css"></head><body>
+<header class="site-header"><a class="logo" href="index.html">WebDev Fundamentals</a><button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu">☰</button><nav class="site-nav" id="siteNav"><a href="index.html">Home</a><a href="concepts.html">Key Concepts</a><a href="html.html">HTML</a><a href="css.html">CSS</a><a href="accessibility.html">Accessibility</a><a href="quiz.html">Quiz</a><a href="about.html">About</a><a href="references.html">References</a></nav></header>
+<main class="content-page"><section class="page-intro"><h1>CSS: Style and Responsive Layout</h1><p>CSS changes how HTML looks. It controls color, fonts, spacing, alignment, and the way elements adjust on different screen widths.</p></section>
+<section class="two-column"><div><h2>Responsive Best Practices</h2><ul><li>Use flexible layouts instead of fixed-width layouts.</li><li>Set images to max-width: 100% so they shrink on small screens.</li><li>Use media queries for tablet and phone widths.</li><li>Make buttons and form controls large enough for touch screens.</li></ul></div><img src="assets/mobile-layout.svg" alt="Responsive layout blocks adapting to phone screen"></section>
+<section><h2>Media Query Example</h2><pre><code>@media (max-width: 768px) {
+  .site-nav {
+    display: none;
+    flex-direction: column;
+  }
+}</code></pre></section></main><footer><p>&copy; 2026 Kofi Sarpong</p></footer><script src="script.js"></script></body></html>

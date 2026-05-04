@@ -1,0 +1,10 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Quiz</title><link rel="stylesheet" href="style.css"></head><body>
+<header class="site-header"><a class="logo" href="index.html">WebDev Fundamentals</a><button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu">☰</button><nav class="site-nav" id="siteNav"><a href="index.html">Home</a><a href="concepts.html">Key Concepts</a><a href="html.html">HTML</a><a href="css.html">CSS</a><a href="accessibility.html">Accessibility</a><a href="quiz.html">Quiz</a><a href="about.html">About</a><a href="references.html">References</a></nav></header>
+<main class="content-page"><section class="page-intro"><h1>Web Development Quiz</h1><p>Use this quiz to test your understanding of HTML, CSS, responsive design, and accessibility.</p></section>
+<form id="quizForm" class="quiz-card">
+  <fieldset><legend>1. What does HTML mainly control?</legend><label><input type="radio" name="q1" value="correct"> Page structure and content</label><label><input type="radio" name="q1" value="wrong"> Database security</label><label><input type="radio" name="q1" value="wrong"> Internet speed</label></fieldset>
+  <fieldset><legend>2. Which CSS feature helps designs adapt to screen size?</legend><label><input type="radio" name="q2" value="wrong"> Fixed pixels only</label><label><input type="radio" name="q2" value="correct"> Media queries</label><label><input type="radio" name="q2" value="wrong"> File compression</label></fieldset>
+  <fieldset><legend>3. Why should images use max-width: 100%?</legend><label><input type="radio" name="q3" value="correct"> So images resize within small screens</label><label><input type="radio" name="q3" value="wrong"> So images disappear</label><label><input type="radio" name="q3" value="wrong"> So links stop working</label></fieldset>
+  <button class="button" type="submit">Submit Quiz</button>
+  <p id="quizResult" class="result" aria-live="polite"></p>
+</form></main><footer><p>&copy; 2026 Kofi Sarpong</p></footer><script src="script.js"></script></body></html>
